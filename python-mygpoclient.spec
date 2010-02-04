@@ -12,6 +12,7 @@ License: GPLv3
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
+BuildRequires: python-devel
 Url: http://thpinfo.com/2010/mygpoclient/
 
 %description
