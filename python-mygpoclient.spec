@@ -1,7 +1,7 @@
 %define oname mygpoclient
 %define name python-%oname
 %define version 1.0
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Library for accessing my.gpodder.org web services
 Name: %{name}
@@ -13,6 +13,7 @@ Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
+Requires: python-simplejson
 Url: http://thpinfo.com/2010/mygpoclient/
 
 %description
