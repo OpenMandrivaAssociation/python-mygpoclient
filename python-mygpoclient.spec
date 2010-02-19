@@ -13,7 +13,6 @@ Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
-Requires: python-simplejson
 Url: http://thpinfo.com/2010/mygpoclient/
 
 %description
