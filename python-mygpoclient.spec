@@ -1,6 +1,6 @@
 %define oname mygpoclient
 %define name python-%oname
-%define version 1.2
+%define version 1.3
 %define release %mkrel 1
 
 Summary: Library for accessing my.gpodder.org web services
@@ -37,5 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc AUTHORS README
+%_bindir/bpsync
 %py_puresitedir/%oname
 %py_puresitedir/*.egg-info
