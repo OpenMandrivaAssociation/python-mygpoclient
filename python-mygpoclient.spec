@@ -1,14 +1,13 @@
 %define oname mygpoclient
 %define name python-%oname
-%define version 1.4
-%define release %mkrel 2
+%define version 1.5
+%define release %mkrel 1
 
 Summary: Library for accessing my.gpodder.org web services
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://thpinfo.com/2010/mygpoclient/%{oname}-%{version}.tar.gz
-Patch0: mygpoclient-less-strict-checking.patch
 License: GPLv3
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
