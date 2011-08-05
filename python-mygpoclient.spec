@@ -1,7 +1,7 @@
 %define oname mygpoclient
 %define name python-%oname
-%define version 1.5
-%define release %mkrel 2
+%define version 1.6
+%define release %mkrel 1
 
 Summary: Library for accessing my.gpodder.org web services
 Name: %{name}
