@@ -5,9 +5,9 @@
 
 Summary: Library for accessing my.gpodder.org web services
 Name: %{name}
-Version: %{version}
-Release: %{release}
-Source0: http://thpinfo.com/2010/mygpoclient/%{oname}-%{version}.tar.gz
+Version: 1.7
+Release: 1
+Source0: http://thpinfo.com/2010/mygpoclient/mygpoclient-%{version}.tar.gz
 License: GPLv3
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -86,5 +86,6 @@ rm -rf $RPM_BUILD_ROOT
 * Thu Feb 04 2010 Götz Waschk <waschk@mandriva.org> 1.0-1mdv2010.1
 + Revision: 500715
 - import python-mygpoclient
+
 
 
