@@ -23,7 +23,7 @@ source releases of the library.
 
 %prep
 %setup -q -n %oname-%version
-%apply_patches
+%autopatch -p1
 
 %build
 python setup.py build
