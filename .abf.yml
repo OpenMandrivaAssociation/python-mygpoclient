@@ -1,4 +1,2 @@
-removed_sources:
-  mygpoclient-1.6.tar.gz: 14eac26757fe8b857e2e5ffc14c31ff9b2a0db4d
 sources:
-  mygpoclient-1.7.tar.gz: 9efb1d07b75b13bfa1ea7c644505ebef14fabb26
+  mygpoclient-1.9.tar.gz: bbf50b5c80b1ab3c4b7871dcd6c7b96a9404a3c5
