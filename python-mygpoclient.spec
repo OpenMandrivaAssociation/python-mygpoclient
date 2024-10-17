@@ -9,7 +9,7 @@ License: GPLv3
 Group: Development/Python
 BuildArch: noarch
 BuildRequires: python-devel
-Url: http://thpinfo.com/2010/mygpoclient/
+Url: https://thpinfo.com/2010/mygpoclient/
 
 %description
 The mygpoclient library allows developers to utilize a Pythonic
