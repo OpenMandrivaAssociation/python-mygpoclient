@@ -3,7 +3,7 @@
 Summary: Library for accessing my.gpodder.org web services
 Name: python-%oname
 Version: 1.10
-Release: 1
+Release: 2
 Source0: http://thpinfo.com/2010/mygpoclient/mygpoclient-%{version}.tar.gz
 License: GPLv3
 Group: Development/Python
