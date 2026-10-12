@@ -8,7 +8,8 @@ Source0: http://thpinfo.com/2010/mygpoclient/mygpoclient-%{version}.tar.gz
 License: GPLv3
 Group: Development/Python
 BuildArch: noarch
-BuildRequires: python-devel
+BuildRequires:	pkgconfig(python)
+BuildRequires:	python%{pyver}dist(setuptools)
 Url: https://thpinfo.com/2010/mygpoclient/
 
 %description
